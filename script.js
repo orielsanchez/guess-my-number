@@ -42,7 +42,7 @@ function getGuess() {
   } else if (guess === myNumber) {
     displayScore(score);
     displayNumber(myNumber);
-    document.querySelector('.message').textContent = 'Correct Number!';
+    displayMessage('Correct Number!');
     document.querySelector('body').style.backgroundColor = '#60b347';
     document.querySelector('.number').style.width = '30rem';
 
